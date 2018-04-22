@@ -1,0 +1,384 @@
+	.header{
+		border-radius: 5px;
+		width:100%;
+		background-color: #29416f;
+		height: 120px;
+		border-bottom: 1px solid black;		
+		opacity: 0.9;
+
+	}
+
+
+	
+	.ttitle {
+		    border-radius: 10px;
+		    margin-bottom: 30px;
+			text-align: center;
+			font-family:Certificate;
+			font-size: 35pt;
+			color: white;
+	}
+	.container{
+		height: 435px;
+		float: bottom;	
+		border-bottom: 2px solid black;
+		border-radius: 5px;
+	}
+	.navigation-bar {
+		position: absolute;
+		border-radius: 10px;
+		width: 1305px;
+	}
+	
+		.content-left{
+			padding-left: 0px;
+			border-left: 1px solid black;
+			
+			float: left;
+			height: 435px;
+			width: 48%;
+		}
+		.content-right{
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			
+			float: right;
+			height: 435px;
+			width: 50%;
+			background-color: #4f6ca4;
+		}
+		header {
+			margin: .5vw;
+			font-size: 0;
+			display: -ms-flexbox;
+			-ms-flexbox-wrap: wrap;
+			-ms-flexbox-direction: column;
+			-webkit-flex-flow: row wrap;
+			display: -webkit-box;
+			display: flex;
+			background: #778899;
+			}
+
+			header div {
+			-webkit-box-flex: auto;
+			-ms-flex: auto;
+			flex: auto;
+			width: 250px;
+			margin: .6vw;
+
+			}
+
+			header div img {
+			width: 100%;
+			height: auto;
+			}
+
+			header {
+			padding: 0;
+			}
+			
+		.middle-cv {
+			height: 435px;
+			width: 100%;
+			background-color: #4f6ca4;
+		}
+		.photo {
+			width: 653px;
+			
+		}
+		
+
+		.gallery-img{
+			border-radius: 5px;
+			border: 3px solid black;
+			float: left;
+			background-color: rgba( 45, 65, 75, 1);
+			height: 170px;
+    		width: 405px;
+    		margin-right: 10px;
+    		margin-left: 10px;
+    		margin-bottom: 10px;
+    		margin-top: 10px;
+		}
+		.cv-table{
+    			width:87%;
+		}
+		.cv-head{
+			text-align:center;
+			font-family:Lucida Sans Typewriter;
+			font-size: 20pt;
+		}
+		.cv-left{
+			text-align:right;
+
+			font-family:Lucida Sans Typewriter;
+			font-size: 13pt;
+		}
+		.cv-right{
+    		padding-left: 40px;
+    		width: 628px;
+			text-align:left;
+			font-family:Lucida Sans Typewriter;
+			font-size: 12pt;
+		}
+
+		.contact-title {
+				text-align: center;
+				}
+		.contact-form {
+				text-align: center;
+				}
+
+				form {
+				margin-top: 50px;
+				/*transition: all 2s ease-in-out;*/
+				}
+
+				.form-control {
+				width: 600px;
+				background: transparent;
+				border:none;
+				outline: none;
+				border-bottom: 1px solid gray;
+				color: black;
+				font-size: 18px;
+				margin-bottom: 16px;
+				}
+
+				input {
+				height: 45px;
+				}
+
+				form.submit {
+				background-color: #f44336;
+				border-color: transparent;
+				color: white;
+				font-size: 20px;
+				font-weight: bold;
+				letter-spacing: 2px;
+				height: 50px;
+				margin-top: 20px;
+				}
+				.mathisection {
+					background-color: #ffffcc;
+				}
+		.pass{
+			float: left;
+			height:120px;
+			width: 120px;
+		}
+		.intro-title{
+			text-align:center;
+			font-family:Lucida Sans Typewriter;
+		}
+		.intro{
+			float: left;
+			margin-left: 10px;
+			font-family:Lucida Sans Typewriter;
+		}
+		.title{
+			margin-top: 0px;
+			text-align:center;
+			font-family:Lucida Sans Typewriter;
+		}
+		
+		.about{
+			float: left;
+			margin-left: 10px;
+			font-family:Lucida Sans Typewriter;
+		}
+		.footer{
+			background-color: black;
+			color: white;
+    		margin-top: 0px;
+    		height: 60px;
+		}
+		.footer-text{
+			text-align: center;
+			font-family:Lucida Sans Typewriter;
+			margin-top: 20px;
+			width: 59%;
+			float: left;
+		}
+		.social{
+			
+			float: right;
+			width: 40%;
+
+		}
+		
+		.fb{
+			border-radius:100px;
+			background-color: grey;
+			opacity: 0.9;
+			float: right;
+			margin-top:5px;
+			margin-bottom:5px;
+			margin-right:10px;
+		}
+		.rss{
+			border-radius:100px;
+			background-color: grey;
+			opacity: 0.9;
+			float: right;
+			margin-top:5px;
+			margin-bottom:5px;
+			margin-right:10px;
+		}
+		.tumblr{
+			border-radius:100px;
+			background-color: grey;
+			opacity: 0.9;
+			float: right;
+			margin-top:5px;
+			margin-bottom:5px;
+			margin-right:10px;
+		}
+		.tweet{
+			border-radius:100px;
+			background-color: grey;
+			opacity: 0.9;
+			float: right;
+			margin-top:5px;
+			margin-bottom:5px;
+			margin-right:10px;
+		}
+		.email{
+			border-radius:100px;
+			background-color: grey;
+			opacity: 0.9;
+			float: right;
+			margin-top:5px;
+			margin-bottom:5px;
+			margin-right:10px;
+		}
+		.email:hover{
+			opacity: 0.5;
+			background-color: red;
+		}
+		.tweet:hover{
+			opacity: 0.5;
+			background-color: lightblue;
+		}
+		.fb:hover{
+			opacity: 0.5;
+			background-color: royalblue;
+		}
+		.tumblr:hover{
+			opacity: 0.5;
+			background-color: yellow;
+		}
+		.rss:hover{
+			opacity: 0.5;
+			background-color: darkorange;
+		}
+		body{
+			background-color: #7c85b0;
+		}
+		.nav{ 
+			text-decoration: none;	 
+			border-collapse: collapse;
+			border: transparent;
+			padding: 10px 40px;
+			font-family:Certificate;
+			font-size: 16pt;
+			color: white;
+			border-radius: 0px;
+			margin-left: 65px; 
+		}
+		.nav:hover{
+			background-color: #7c85b0;
+			font-size: 17pt;
+			padding: 10px 40px;
+		}
+
+		
+
+		
+
+			#section-left {
+			width: 20%;
+			float: left;
+			/*height: 50%;*/
+			/*background-color: #C0C0C0;*/
+			text-align: center;
+			margin-top:-10px;
+			color: black;
+			} 
+
+			
+
+			#section-left .section {
+			margin-top: 40px;
+			padding: 1em;
+			}
+
+			
+			.intro img {
+				width: 150px;
+				height: 200px;
+			}
+
+
+			.intro .content {
+			margin-bottom: 20px;
+			}
+
+			#contact-information {
+			margin-top: 40px;
+
+			}
+
+			h1{
+			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif;
+			}
+
+
+			#section-right {
+			width: 65%;
+			float: right;
+			}
+
+			#section-right .section {
+			margin: 0 0 30px 0;
+			}
+
+			.prasanitor {
+			padding: 2em;
+			}
+
+			/*.fa {
+			margin-right: 15px;
+			}*/
+
+			.prasanitor .title {
+			color: black;
+			font-size: 1.3em;
+			font-variant: small-caps;
+			letter-spacing: 0.1em;
+			font-weight: bold;
+			border-bottom: 2px solid #f2f2f2;
+			}
+
+			
+
+			h2 {
+			text-transform: uppercase;
+			}
+
+
+			ol li {
+			font-size: 1.4em;
+			}
+
+			.prasanitor .section p{
+			font-size: 1.4em;
+		}
+
+			@media screen and (max-width: 250px) {
+			header div {
+				flex-direction: column;
+			margin: 0;
+			}
+		}         
